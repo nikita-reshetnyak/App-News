@@ -1,0 +1,33 @@
+.footer {
+   padding: 45px 0px;
+   height: 135px;
+}
+.footer-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.footer__logo {
+   span {
+      font-size: 12px;
+      line-height: 15px;
+   }
+}
+.footer-text {
+   font-size: 15px;
+   line-height: 18px;
+}
+.footer-name {
+   span {
+      display: block;
+      text-align: right;
+   }
+   p {
+      font-family: "PNova-Bold";
+
+      font-size: 25px;
+      line-height: 30px;
+      text-align: right;
+   }
+}

@@ -1,0 +1,40 @@
+.detailPage__wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   font-family: "PNova-Regular", sans-serif;
+}
+.detailPage-left {
+   width: 30%;
+   padding-right: 30px;
+}
+.detailPage-left-source {
+   font-size: 25px;
+   color: rgba(51, 61, 81, 0.5);
+   text-align: left;
+   margin-top: 30px;
+}
+
+.detailPage-rigth {
+   width: 70%;
+}
+.detailPage__date-margin {
+   margin-top: 40px;
+}
+.detailPage-right__image {
+   max-width: 730px;
+   width: 100%;
+   height: 380px;
+}
+.detailPage-right-img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.detailPage-rigth-description {
+   margin-top: 60px;
+   font-size: 25px;
+   line-height: 35px;
+   text-align: left;
+}

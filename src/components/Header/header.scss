@@ -1,0 +1,34 @@
+.header {
+   padding: 45px 0px;
+   margin-bottom: 90px;
+}
+.header-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.logo {
+   font-family: "PNova-Bold";
+   font-size: 25px;
+   line-height: 30px;
+}
+.navigation {
+   ul {
+      display: flex;
+      align-items: center;
+      li {
+         padding: 0px 17.5px;
+      }
+   }
+}
+.navigation-link {
+   font-size: 18px;
+   line-height: 22px;
+   &:hover {
+      text-decoration: underline;
+   }
+}
+.my-active {
+   color: #004fec;
+}
