@@ -15,7 +15,7 @@ const App = () => {
   //todo функция для запроса на сервер
   const useFetch = () => {
     const [data, updateData] = useState(null);
-    const requestUrl = 'https://newsapi.org/v2/everything?q=tesla&from=2021-11-27&sortBy=publishedAt&apiKey=07a135d550464edcb33dcd05dda770d2';
+    const requestUrl = 'https://newsapi.org/v2/everything?q=tesla&from=2021-12-19&sortBy=publishedAt&apiKey=a553c6f6acda485589e0f8d2f98456ac';
     useEffect(() => {
       const fetchData = async () => {
         const response = await axios.get(requestUrl);
