@@ -12,10 +12,10 @@ import axios from 'axios';
 import Footer from './components/Footer/Footer';
 
 const App = () => {
-  //todo функция для запроса на сервер
+  
   const useFetch = () => {
     const [data, updateData] = useState(null);
-    const requestUrl = 'https://newsapi.org/v2/everything?q=tesla&from=2021-12-29&sortBy=publishedAt&apiKey=b0d4b240c0734e5abddba90e21aedacf';
+    const requestUrl = 'https://newsapi.org/v2/everything?q=tesla&from=2022-04-04&sortBy=publishedAt&apiKey=fb5c23072deb43649d5460fb803d6c15';
     useEffect(() => {
       const fetchData = async () => {
         const response = await axios.get(requestUrl);
